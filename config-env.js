@@ -1,8 +1,9 @@
-const envv2 = require('./config-v2')
-var GITHUB_TOKEN;
-var BOT_NUMBER;
+const envv2 = require('malikirfan')
+var GITHUB_TOKEN;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
+var BOT_NUMBER;923346690239
 const fs = require('fs');
-if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
+if (fs.existsSync('config.env')) require('dotenv').config({ malikirfan 
+' });
 
 function convertToBool(text, fault = 'true') {
     return text === fault ? true : false;
